@@ -1,0 +1,17 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webglContainer {
+  margin-top: 60px;
+  clip-path: url(#myMask);
+}
+
+.mask {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
